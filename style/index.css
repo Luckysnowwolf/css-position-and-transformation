@@ -1,0 +1,260 @@
+.navigation1{
+    min-height: 20vh;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 1250px;
+    height: 78px;
+    left: 0px;
+    top: 20px;
+}
+.logo{
+    /* Logo */
+
+position: absolute;
+width: 185.34px;
+height: 31.97px;
+left: 143.92px;
+top: 22px;
+
+
+
+
+}
+.logoicon{
+    /* logoicon */
+
+position: absolute;
+width: 30.16px;
+height: 30px;
+left: 143.92px;
+top: 22px;
+}
+
+.mainlinks{
+    /* Product Customers Pr */
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 28px;
+    left: 46.43%;
+    right: 28.57%;
+    top: calc(50% - 28px/2 - 1px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+color: #2F281E;
+}
+.signin{
+/* Button */
+
+margin-top: 20px;
+margin-left: 20px;
+display: inline-flex;
+justify-content: flex-end;
+align-items: flex-end;
+left: 73.5%;
+right: 20.21%;
+top: 19.23%;
+bottom: 21.79%;
+
+
+
+/* Bg */
+
+box-sizing: border-box;
+
+display: inline-flex;
+justify-content: flex-start;
+align-items: flex-end;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border: 1px solid #BCD0E5;
+border-radius: 4px;
+
+
+/* Sign In */
+
+display: inline-flex;
+justify-content: flex-start;
+align-items: flex-end;
+height: 24px;
+left: 24.75%;
+right: 21.78%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #173A56;
+
+
+}
+
+.signup{
+    /* Button */
+margin-top: 20px;
+margin-left: 20px;
+display: inline-flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+left: 81.79%;
+right: 10.36%;
+top: 19.23%;
+bottom: 21.79%;
+
+
+
+/* Bg */
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF9900;
+border-radius: 4px;
+
+
+/* Sign Up */
+
+height: 24px;
+left: 22.73%;
+right: 20.91%;
+top: calc(50% - 24px/2);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+.maintextzone{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.main-title{
+
+    /* The Design Thinking */
+
+position: absolute;
+width: 518px;
+height: 108px;
+left: 145px;
+top: 211px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+/* or 123% */
+
+color: #2F281E;
+
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.main-text{
+/* Tools, tutorials, de */
+
+position: absolute;
+width: 458px;
+height: 95px;
+left: 145px;
+top: 349px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+color: #544837;
+
+}
+.button{
+/* button */
+position: absolute;
+width: 175px;
+height: 53px;
+left: 145px;
+top: 504px;
+
+background: #FF9900;
+border-radius: 4px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+}
+.buttonvideo{
+    /* button */
+
+position: absolute;
+width: 161px;
+height: 23px;
+left: 350px;
+top: 504px;
+}
+.jump{
+    /* Image */
+position: absolute;
+width: 605px;
+height: 496px;
+left: 666px;
+top: 128px;
+}
+.information-line{
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.secondery-title{
+    /* We design tools to u */
+height: 108px;
+left: 38.22%;
+right: 37.4%;
+top: calc(50% - 108px/2 - 217.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+color: #2F281E;
+}
