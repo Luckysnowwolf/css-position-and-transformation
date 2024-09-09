@@ -1,7 +1,7 @@
 .navigation1{
     min-height: 20vh;
     display: flex;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #ffffff;
     width: 1250px;
@@ -152,7 +152,7 @@ color: #FFFFFF;
 .maintextzone{
     min-height: 100vh;
     display: flex;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #ffffff;
 }
@@ -226,7 +226,7 @@ position: absolute;
 width: 161px;
 height: 23px;
 left: 350px;
-top: 504px;
+top: 520px;
 }
 .jump{
     /* Image */
@@ -239,7 +239,7 @@ top: 128px;
 .information-line{
     min-height: 50vh;
     display: flex;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #ffffff;
 }
@@ -257,4 +257,20 @@ font-size: 36px;
 line-height: 54px;
 text-align: center;
 color: #2F281E;
+}
+.container{
+display: flex;
+border-color: #ff0000 5px;
+position: absolute;
+width: 70%;
+min-height: 50%;
+padding: 25px;
+}
+.card{
+width: 150px;
+height: 200px;
+background-color: #ffffff;
+border-radius: 5px;
+margin-left: 20px;
+margin-bottom: 20px;
 }
