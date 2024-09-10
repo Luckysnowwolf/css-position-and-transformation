@@ -269,7 +269,7 @@ margin-left: 15px;
 margin-bottom: 15px;
 }
 .line{ 
-background-color: #fe0000;
+background-color: #ffffff;
 display: flex;
 width: 100%;
 height: 50px;
@@ -317,11 +317,11 @@ line-height: 20px;
 color: #FFFFFF;
 }
 .second-textzone {
-    min-height: 5vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #ffffff;
+min-height: 5vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #ffffff;
 }
 .three-text{
 /* Text */
@@ -338,65 +338,132 @@ left: 779px;
 top: 1600px;
 }
 .container-two{
-    min-height: 100vh;
-    justify-content:space-between;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #ff0000;
+min-height: 100vh;
+justify-content:space-between;
+display: flex;
+flex-wrap: wrap;
+background-color: #ffffff;
+width: 50%;
+}
+.container-tvo-right{
+    width: 50%;
 }
 .container-three{
+min-height: 5vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-color: #ffffff;
+}
+.container-three-left{
+min-height: 100vh;
+justify-content: space-between;
+display: flex;
+flex-wrap: wrap;
+background-color: #ffffff;
+width: 50%;
+}
+.container-three-right{
+    width: 50%;
+}
+.container-four {
     min-height: 100vh;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    background-color: #19f500;
-}
-.container-four{
+    justify-content: center;
+    background-color: #ffffff;
+    }
+
+.container-four-left{
     min-height: 100vh;
     display: flex;
-    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #802f2f;
-}
-.card-four-image{
-    float: right;
-    width: 590px;
-    height: 496px;
-    left: 666px;
-    top: 3000px;
+    background-color: #ffffff;
+    width: 50%;
+  }
+  .container-four-right{
+    width: 50%;
+
 }
 .last-container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 40px;
     display: flex;
-    background-color: #ff0000;
-    width: 100%;
+    background-color: #fefefe;
+    width: 50%;
+    }
+.end-logoicon{
+    width: 200px;
+
+}
+    .footer-links{
+        margin-top: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: space-between; 
     }
     .last-cards{
     width: 150px;
     height: 70px;
+    justify-content: space-between;
     background-color: #ffffff;
     border-radius: 5px;
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
     }
-    .last-textbox-content{
-        width: 100%;
-        height: 100%;
+    .footer-btn{
+        margin-top: 24%;
+        width: 150px;
+        height: 70px;
+        justify-content: space-between;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
     }
-    .end-logo{
-        position: absolute;
-        width: 185.34px;
-        height: 30.97px;
-        left: 90.92px;
-    }
-    .end-logoicon{
-        position: absolute;
-        width: 30.16px;
-        height: 30px;
-        left: 60px;
-        top: 3970px;
-    }
- 
+.end-signupnow{
+  /* button */
+left: 0%;
+right: 59.69%;
+top: 80.4%;
+bottom: 0%;
+
+
+
+/* Rectangle */
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF9900;
+border-radius: 4px;
+
+
+/* Sign up Now */
+height: 40px;
+width: 100px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 10px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
