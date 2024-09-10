@@ -323,22 +323,9 @@ color: #FFFFFF;
     justify-content: center;
     background-color: #ffffff;
 }
-.thinking{
-/* Image */
-width: 400px;
-height: 400px;
-left: 800px;
-top: 1200px;
-}
-.guypc{
- /* Image */
-width: 535px;
-height: 521px;
-left: 144px;
-top: 1600px;
-}
 .three-text{
 /* Text */
+display: flex;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -355,32 +342,36 @@ top: 1600px;
     justify-content:space-between;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: #ff0000;
 }
 .container-three{
     min-height: 100vh;
     width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: #19f500;
 }
 .container-four{
     min-height: 100vh;
-    width: 100%;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: #802f2f;
+}
+.card-four-image{
+    float: right;
+    width: 590px;
+    height: 496px;
+    left: 666px;
+    top: 3000px;
 }
 .last-container{
     display: flex;
-    background-color: #ffffff;
-    justify-content:center;
+    background-color: #ff0000;
     width: 100%;
-    min-height: 50%;
-    padding: 25px;
     }
     .last-cards{
     width: 150px;
@@ -390,5 +381,22 @@ top: 1600px;
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
+    }
+    .last-textbox-content{
+        width: 100%;
+        height: 100%;
+    }
+    .end-logo{
+        position: absolute;
+        width: 185.34px;
+        height: 30.97px;
+        left: 90.92px;
+    }
+    .end-logoicon{
+        position: absolute;
+        width: 30.16px;
+        height: 30px;
+        left: 60px;
+        top: 3970px;
     }
  
