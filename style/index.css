@@ -2,7 +2,7 @@
     min-height: 20vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #ffffff;
     width: 1250px;
     height: 78px;
@@ -10,26 +10,19 @@
     top: 20px;
 }
 .logo{
-    /* Logo */
-
+/* Logo */
 position: absolute;
 width: 185.34px;
-height: 31.97px;
-left: 143.92px;
-top: 22px;
-
-
-
-
+height: 30.97px;
+left: 90.92px;
 }
 .logoicon{
-    /* logoicon */
-
+/* logoicon */
 position: absolute;
 width: 30.16px;
 height: 30px;
-left: 143.92px;
-top: 22px;
+left: 50.92px;
+top: 30px;
 }
 
 .mainlinks{
@@ -156,6 +149,13 @@ color: #FFFFFF;
     justify-content: center;
     background-color: #ffffff;
 }
+.main-left{
+    justify-content: flex-start;
+}
+.main-right{ 
+justify-content: flex-end;
+}
+
 .main-title{
 
     /* The Design Thinking */
@@ -163,8 +163,8 @@ color: #FFFFFF;
 position: absolute;
 width: 518px;
 height: 108px;
-left: 145px;
-top: 211px;
+left: 50px;
+top: 220px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -185,7 +185,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: absolute;
 width: 458px;
 height: 95px;
-left: 145px;
+left: 50px;
 top: 349px;
 
 font-family: 'Poppins';
@@ -203,7 +203,7 @@ color: #544837;
 position: absolute;
 width: 175px;
 height: 53px;
-left: 145px;
+left: 50px;
 top: 504px;
 
 background: #FF9900;
@@ -216,7 +216,7 @@ font-size: 16px;
 line-height: 24px;
 /* identical to box height */
 
-color: #FFFFFF;
+color: #ffffff;
 
 }
 .buttonvideo{
@@ -225,13 +225,13 @@ color: #FFFFFF;
 position: absolute;
 width: 161px;
 height: 23px;
-left: 350px;
+left: 250px;
 top: 520px;
 }
 .jump{
     /* Image */
 position: absolute;
-width: 605px;
+width: 590px;
 height: 496px;
 left: 666px;
 top: 128px;
@@ -260,10 +260,9 @@ color: #2F281E;
 }
 .container{
 display: flex;
-border-color: #ff0000 5px;
-position: absolute;
+background-color: #ffffff;
 justify-content: center;
-width: 100%;
+width: 96%;
 min-height: 50%;
 padding: 25px;
 }
@@ -272,21 +271,112 @@ width: 150px;
 height: 200px;
 background-color: #ffffff;
 border-radius: 5px;
-margin-left: 20px;
-margin-bottom: 20px;
+margin-right: 15px;
+margin-left: 15px;
+margin-bottom: 15px;
 }
-.second-textzone 
-{
-    min-height: 100vh;
-    margin-top: 20px;
+.line{ 
+background-color: #fe0000;
+display: flex;
+width: 100%;
+height: 50px;
+min-height: 50%;
+justify-content: center;
+}
+.signinnow{
+    /* button */¨
+position: center;
+left: 46.45%;
+right: 45.64%;
+top: 73.66%;
+bottom: 16.57%;
+
+
+
+/* Rectangle */
+
+position: center;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF9900;
+border-radius: 4px;
+
+
+/* SIGN UP NOW */
+
+position: center;
+height: 50px;
+width: 100px;
+left: 19.43%;
+right: 18.29%;
+top: calc(50% - 24px/2 + 0.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.second-textzone {
+    min-height: 5vh;
     display: flex;
     flex-wrap: wrap;
-    background-color: #f70000;
+    justify-content: center;
+    background-color: #ffffff;
 }
 .second-text{
+/* Text */
+background-color: #ffffff;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+position: absolute;
 width: 486px;
-height: 300px;
-left: 145px;
-top: 1423px;
+height: 250px;
+left: 50px;
+top: 1190px;
+}
+.thinking{
+    /* Image */
+
+position: absolute;
+width: 400px;
+height: 400px;
+left: 735px;
+top: 1200px;
+}
+.guypc{
+ /* Image */
+position: absolute;
+width: 535px;
+height: 521px;
+left: 144px;
+top: 1600px;
+}
+.three-text{
+/* Text */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+
+position: absolute;
+width: 486px;
+height: 427px;
+left: 779px;
+top: 1600px;
 
 }
+
+ 
