@@ -1,28 +1,18 @@
-.navigation1{
+.navigation{
+    min-width: 100px;
     min-height: 20vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     background-color: #ffffff;
-    width: 1250px;
-    height: 78px;
-    left: 0px;
-    top: 20px;
 }
 .logo{
-/* Logo */
-position: absolute;
-width: 185.34px;
-height: 30.97px;
-left: 90.92px;
-}
-.logoicon{
-/* logoicon */
-position: absolute;
-width: 30.16px;
-height: 30px;
-left: 50.92px;
-top: 30px;
+    display: flex;
+    justify-content:  flex-start;
+    width: 10px;
+    height: 30px;
+    margin-right: 50%;
+    margin-top: 20px;
 }
 
 .mainlinks{
@@ -32,10 +22,6 @@ top: 30px;
     display: inline-flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 28px;
-    left: 46.43%;
-    right: 28.57%;
-    top: calc(50% - 28px/2 - 1px);
 
 font-family: 'Poppins';
 font-style: normal;
@@ -54,37 +40,6 @@ margin-left: 20px;
 display: inline-flex;
 justify-content: flex-end;
 align-items: flex-end;
-left: 73.5%;
-right: 20.21%;
-top: 19.23%;
-bottom: 21.79%;
-
-
-
-/* Bg */
-
-box-sizing: border-box;
-display: inline-flex;
-justify-content: flex-start;
-align-items: flex-end;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-border: 1px solid #BCD0E5;
-border-radius: 5px;
-
-
-/* Sign In */
-
-display: inline-flex;
-justify-content: flex-start;
-align-items: flex-end;
-height: 24px;
-left: 24.75%;
-right: 21.78%;
-top: calc(50% - 24px/2);
 
 font-family: 'Poppins';
 font-style: normal;
@@ -94,43 +49,8 @@ line-height: 24px;
 /* identical to box height */
 
 color: #173A56;
-
-
 }
-
-.signup{
-    /* Button */
-margin-top: 20px;
-margin-left: 20px;
-display: inline-flex;
-justify-content: flex-end;
-align-items: flex-end;
-
-left: 81.79%;
-right: 10.36%;
-top: 19.23%;
-bottom: 21.79%;
-
-
-
-/* Bg */
-
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #FF9900;
-border-radius: 4px;
-
-
-/* Sign Up */
-
-height: 24px;
-left: 22.73%;
-right: 20.91%;
-top: calc(50% - 24px/2);
-
+.signin-button{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -138,8 +58,44 @@ font-size: 16px;
 line-height: 24px;
 /* identical to box height */
 
-color: #FFFFFF;
+color: #173A56;
+background-color: #fcfcfc;
+border-color: #00000034;
+border-radius: 10px;
+}
+.signin-button:hover{
+    transition: all;
+    box-shadow: #000000;
+    letter-spacing: 2px;
+    color: black;
+}
 
+.signup{
+    /* Button */
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.signup-button{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #173A56;
+background-color: #FF9900;
+border-color: #2d2626;
+border-radius: 10px;
+}
+.signup-button:hover{
+    transition: all;
+    box-shadow: #000000;
+    letter-spacing: 2px;
+    color: black;
 }
 .maintextzone{
     min-height: 100vh;
@@ -147,6 +103,14 @@ color: #FFFFFF;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #ffffff;
+}
+.main-left{
+    min-height: 100vh;
+    justify-content:space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 50%;
 }
 .main-title{
 
@@ -211,23 +175,40 @@ line-height: 24px;
 color: #ffffff;
 
 }
-.buttonvideo{
-    /* button */
-
-position: absolute;
-width: 161px;
-height: 23px;
-left: 250px;
-top: 520px;
+.fa-solid fa-play{
+color: #FF9900;
 }
-.jump{
-    /* Image */
-position: absolute;
-float: right;
-width: 590px;
-height: 496px;
-left: 666px;
-top: 128px;
+.button:hover{
+    transition: all;
+    box-shadow: #000000;
+    letter-spacing: 2px;
+    color: black;
+}
+.buttonvideo:hover{
+    transition: all;
+    box-shadow: #000000;
+    letter-spacing: 2px;
+    color: black;
+}
+.buttonvideo{
+margin-top: 62%;
+margin-left: 25%; 
+width: 50%;
+height: 40px;
+background-color: #ffffff;
+color: #FF9900;
+text-decoration: underline orange;
+border-top: 0px;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+font-size: 20px;
+}
+.button-arrow{
+    width: 30px;
+}
+.main-right{
+width: 100%;
 }
 .information-line{
     min-height: 5vh;
@@ -278,15 +259,6 @@ margin-bottom: 10%;
 justify-content: center;
 }
 .signinnow{
-    /* button */
-position: center;
-left: 46.45%;
-right: 45.64%;
-top: 73.66%;
-bottom: 16.57%;
-
-
-
 /* Rectangle */
 
 position: center;
@@ -317,26 +289,18 @@ line-height: 20px;
 
 color: #FFFFFF;
 }
+.signinnow:hover{
+    transition: all;
+    box-shadow: #000000;
+    letter-spacing: 2px;
+    color: black;
+}
 .second-textzone {
 min-height: 5vh;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 background-color: #ffffff;
-}
-.three-text{
-/* Text */
-display: flex;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 28px;
-
-width: 486px;
-height: 427px;
-left: 779px;
-top: 1600px;
 }
 .container-two{
 min-height: 100vh;
@@ -396,8 +360,8 @@ width: 50%;
     width: 50%;
     }
 .end-logoicon{
-    width: 200px;
-
+    width: 100px;
+    height: 20px
 }
     .footer-links{
         margin-top: 15%;
@@ -413,8 +377,8 @@ width: 50%;
     justify-content: space-between;
     background-color: #ffffff;
     border-radius: 5px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 15px;
 
     font-family: 'Poppins';
@@ -425,7 +389,7 @@ width: 50%;
     }
     .footer-btn{
         margin-top: 24%;
-        width: 150px;
+        width: 10px;
         height: 70px;
         justify-content: space-between;
         background-color: #ffffff;
@@ -467,4 +431,10 @@ line-height: 10px;
 text-align: center;
 
 color: #FFFFFF;
+}
+.end-signupnow:hover{
+    transition: all;
+    box-shadow: #000000;
+    letter-spacing: 2px;
+    color: black;
 }
